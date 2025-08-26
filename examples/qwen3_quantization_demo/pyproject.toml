@@ -1,0 +1,18 @@
+[project]
+name = "model-quant"
+version = "0.1.0"
+description = "llm-compressor"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    llm-compressor==0.6.0,
+    vllm
+]
+
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+[[tool.uv.index]]
+url = "https://mirrors.cloud.tencent.com/pypi/simple"
+default = true

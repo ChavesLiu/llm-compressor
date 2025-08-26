@@ -1,0 +1,6 @@
+model: model/Qwen/Qwen3-8B
+dataset_id: dataset/calib.json
+recipe: config/recipe_w8a16_group_quant.yaml
+max_sequence_length: 2048
+num_calibration_samples: 2000
+save_dir: "temp"
